@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Oxygen:wght@300;400;700&display=swap');
+
+
+:root {
+    --main-green: #0b720b;
+    --off-white: #fdfdfd;
+    --dk-brown: #0c0606;
+    --md-brown: #2a2020;
+    --main-orange: orange;
+
+
+    --max-width: 1500px;
+}
+.logo {
+    background: url("../images/rockhoppers-logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 85px;
+    margin-left: 20px;
+}
+
+/*-----------------------------Background Colors*/
+
+.bg-color-car {
+    background-color: var(--off-white);
+}
+
+.bg-color-benefits {
+    background-color: var(--off-white);
+}
+
+.bg-color-what {
+    background-color: #f1fdf4;
+}
+
+#bg-color-footer {
+    background-color: rgba(11, 114, 11, 0.72);
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Body*/
+.mid-button {
+    color: var(--main-green);
+    padding: 1rem 1rem;
+    text-decoration: none;
+    background-color: var(--off-white);
+    border-color: var(--off-white);
+    border: 0.05rem solid;
+    margin: 0;
+}
+.button-style {
+    border-radius: 5px;
+    background-color: rgba(104, 72, 72, 0.1);
+    padding: 0.3rem;
+}
+
+.button-style:hover {
+    color: var(--off-white);
+    background-color: var(--main-green);
+    text-decoration: none;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #343a40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #eb8d02;
+}
+
+#footer-details {
+    padding: 20px;
+}
+.button-padding {
+    padding-bottom: 1.875rem;
+}
+
+.footer-style .mid-button {
+    color: var(--off-white);
+}
+footer .mid-button:hover {
+    background-color: transparent;
+    color: var(--main-orange);
+}
