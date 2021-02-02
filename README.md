@@ -1,10 +1,5 @@
 # Rock Hoppers Kayaking Club
 
-![Main Mockup](README-files/main-mockup.png)
-
-[Link to Live Website](https://crypticcaroline.github.io/ms1-plantfactory/index.html)
-
-[GitHub Repo](https://github.com/crypticCaroline/ms1-plantfactory)
 
 *** 
 
@@ -70,7 +65,7 @@ There is a scope to add a blog with upcoming events, river trips, kayaking holid
 * To sign up to events/trips/pool sessions online.
 * How it works - from start to finish, i.e., who the club are, how many members, how to join, how many trips are there? Are there trainings/courses etc? Is there room for progression?
 * Winter pool sessions to learn to roll and refine techniques in a safe/warm environment.
-* To sign up and pay for membership online (potential for Adult/Student/Couples membership) - future.
+* To sign up and pay for membership online (potential for Adult/Student/Couples membership) - future implementation.
 
 
 #### As a developer / Club I expect
@@ -85,7 +80,7 @@ There is a scope to add a blog with upcoming events, river trips, kayaking holid
 
 ## Structure
 The website will consist of 3 separate pages
-* A home page with “Whats Our Club About”, “Why Kayaking” and “Whats Happening” events section. 
+* A home page with “What we do”, and a "River Trips / Events" section. 
 * A “Events/Trips” page with a list of upcoming weekly and annual events.
 * A page with a form to contact the club and enquire about membership and events.
 
@@ -98,26 +93,25 @@ The website will consist of 3 separate pages
 
 #### Colour
 
-I have used blue as my main colour theme for the website. This has been paired with an off-white colour for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the club. The kayaking club is about white water so this associated with blue and white.  
+I have used dark grey as my main colour theme for the website. This has been paired with an off-white colour and orange for contrast. This will help with Accessibility for visually impaired users. This goes with the theme of the website and the club logo. Most other Kayaking clubs use the same blue colour so the choices here were to make the website stand out.  
 
-
-These colours feature several times throughout the website which is why I have set a variable in the code.
+These colours feature alot throughout the website which is why I have set a variable in the code.
 
 
 I have used the following 
 
      :root {
-    --main-green:#0b720b;
-    --off-white:#fdfdfd;
-    --dk-brown:#0c0606;
-    --md-brown: #2a2020;
-     }
+    --main-green: #0b720b;
+    --off-white: #fdfdfd;
+    --main-orange: orange;
+    --dk-grey: #525252;
+}
     
-This means if the business decides at any point to change the key colours they can easily change it in the variable so that they do not need to go through and change every colour individually.     
-![Colour scheme](README-files/colors.png)
+This means if the club decides at any point to change the key colours they can easily change it in the variable so that they do not need to go through and change every colour individually.     
 
 
-For the rest of the colour scheme, I have kept the range of colours to a minimum using only a few additional colours where needed. I have used a mid-brown and dark brown for some text. This still ties in with the theme of water and kayaking but provides a better design. Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dyslexia). It is a processing perception problem which can cause issues with processing text and patterns. Black on white has been shown as one of the most difficult for sufferers of visual stress to read.
+
+For the rest of the colour scheme, I have kept the range of colours to a minimum using only a few additional colours where needed. I have used a dark grey and orange for some text. This still ties in with the theme of the website but provides a better design. Another reason I have chosen not to use black and white is because it is estimated that 20% of the general population has a form of visual stress (significantly higher percentage in those with disorders such as dyslexia). It is a processing perception problem which can cause issues with processing text and patterns. Black on white has been shown as one of the most difficult for sufferers of visual stress to read.
 
 
 I initially used https://mycolor.space/ to help me narrow down my design choice after using the colour picker on my hero image. I had already decided to use green but hadn’t decided on the exact shade. Although this was helpful in finding colours that worked well, I chose to alter the palette to my choosing.
@@ -141,33 +135,17 @@ I imported the following code into the top of my style.css file
 I made all my call to actions as easy to see as possible. 
 
 * The links in the Nav/Logo are highlighted using a change in background colour and text colour when the mouse is hovered over them.
-* Request a Quote is styled as a button to be more inviting for the users to click.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
+* Contact Us is styled as a button to be more inviting for the users to click in the footer.  I have used a complete colour switch when the mouse is hovered over the link so that the user can clearly see it is a link.
 * "Submit link" on the form and the "Contact Us" link in the form have also been styled as a button with a complete colour switch.  The colour used are the 2 main colours for consistency and because the change between the colours is easy to see. 
-* The "Request a Quote" in the main body of index.html and the "Contact us" in the Footer which takes them to the form. 
 * The social links will send the user to the company's social media pages.  They also change colour when hovered over.
 
 ### Imagery   
 
-
-Seeing as the business is a concept I had no images to use from the company. I looked for simple and eye-catching designs that mirrored the website ideals when looking for hero images and carousel images. I used a jumbotron for the hero image and I placed an overlay over the top of the carousel. This was to increase the contrast between the imagery and text. I used images of people in the testimonials and for the “About” section. This was to make the business seem friendly and approachable. These images also grow when hovered over. This is so the user can see the images more clearly. I resized some of the images using tiny.png and cropped and flipped the hero image for use on smaller devices.
-
-
-Image Links - 
-* [Hero](https://unsplash.com/photos/x2Tmfd1-SgA)
-* [About Image](https://unsplash.com/photos/8FAEyjo3Dek)
-* [Testimony Image ](https://unsplash.com/photos/Jnxtlv_Fo14)
-* [Testimony Image](https://unsplash.com/photos/HrpYHchKb5Y)
-* [Testimony Image](https://unsplash.com/photos/ROJFuWCsfmA)
-* [Carousel Images](https://unsplash.com/photos/K86O7q3jddY)
-* [Carousel Images](https://unsplash.com/photos/VWcPlbHglYc)
-* [Carousel Image ](https://unsplash.com/photos/p_kICQCOM4s)
-
-I also used a pattern background of leaves for the "Contact us" page and the "What we Offer" section on the homepage.  This was to tie into the theme of the business and increase visual appeal. 
-
-[Pattern background](https://www.freepik.com/free-vector/mostera-background_4258347.htm#page=2&query=pattern+background+plant&position=46)
+I used kayaking photos mostly that I have taken myself to add a sense of excitement, and fun and dynamism for users who are familiar with the sport and to give them a sense of the type of experience they may have when joining the club.
 
 
-Should the hero or pattern image fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
+
+Should the hero or carousel images fail there is a background colour set so that the colours of the text can still be read. The images in the body of the website all have "alt" attributes. This is to ensure that screen readers can describe the image to the user or if the image fails to load. This is also to help with the ranking of the website.
 
 
 ***
@@ -181,21 +159,13 @@ Should the hero or pattern image fail there is a background colour set so that t
 
 * I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
 * I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
-* I have also used a max-width, this is to ensure the content still looks good. As this is a Business-to-Business company the decisions may not be made by an individual but as a collective. This means that meetings may take place and the site presented on a larger screen. The max-width keeps the website looking neat and professional.
-* I have used containers, paddings and margins to make sure that the content is not too close together.
+* I have also used a max-width on some pages, this is to ensure the content still looks good.
 
 
 #### Homepage Wire Frame 
 
 ![Homepage Wireframe](README-files/homepage.png)
 
-#### Testimonial Wireframe
-
-![Testimonial Wireframe](README-files/testimonials.png)
-
-#### Form Wireframe 
-
-![Form Wireframe](README-files/form.png)
  
 
 ***
@@ -214,7 +184,7 @@ Should the hero or pattern image fail there is a background colour set so that t
 #### Universal Features Across the Site
 
 ###### Logo and Navigation Bar
-The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. I used white-space:nowrap to stop the (Request a Quote) from splitting when the size of the screen in lowered. The colour of the nav is our off-white and the text is the main green colour.
+The Navigation Bar is at the top of the webpage. The logo and nav links all change colour and are highlighted when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When the page is active, I used bootstraps class .text-uppercase. This causes all the letters to be capitalized and made the text a different colour. By having both these features accessibility is improved. When on smaller devices the nav goes underneath the logo and it is centred. For the larger screens, the nav is aligned to the right-hand side of the page and is on the same line as the Logo. The colour of the nav is dark grey with lighter grey nav links.
 
 
 ###### Responsiveness
@@ -229,10 +199,10 @@ All images and navigations have an alt attributes or aria-label. This is to make
 
 ###### Footer 
 
-The footer is split into 3 sections:. “Opening Hours”, “Contact Info” and “Social”. The colour used for the background is our the main-green colour with a reduced opacity as the colour is very bold when at 100%. Theses The three sections are stacked on smaller devices and are arranged in 3 coloumns on larger devices.
+The footer is split into 3 sections:. “Trips, “Contact Us” and “Social”. The colour used for the background is dark grey to match the nav. Theses The three sections are stacked on smaller devices and are arranged in 3 coloumns on larger devices.
 
 
-The “Opening Hours” section includes the times the office would is be open. The “Contact Details” section offers the user alternative different ways of getting in contact with the business,. sSuch as the business’ aAddress, telephone numbers, and email. The last section “Social” section has links to social media sites using Icons from Font Awesome. When hovered over these links change from a white colour to a different shade of green than the background. The “Ssocial” section also includes a “Contact Us” link that is styled as a button to promote contact to Plant Factory.
+The “Trips" section contains a link to bring users to the Trips page so they can view any events. The “Contact Details” section is a button to the contact page as there is no phone number. The last section “Social” section has links to social media sites using Icons from Font Awesome. When hovered over these links change from a light grey colour to an orange colour.
 
 ##### Meta data
 
@@ -240,33 +210,25 @@ The “Opening Hours” section includes the times the office would is be open. 
 I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
 
 
-##### Redirect
-
-I have also included a redirect file so if any of the links don't work or the page does not show up they are redirected back to the homepage. Please see credit for the code used for this function. 
-
-*** 
-
 #### Features Specific to Pages
 
 ###### Homepage 
-* A hero image reminder of the name of the company (Plant Factory) and a slogan to entice users to continue reading.
-* An “About” section with information of what Plant Factory does, including an image of the owner. On smaller devices are stacked, and in 2 columns on larger resolutions.
-* A “Benefits sections” listing 3 benefits of having more plants in the office. On smaller devices this is stacked, medium devices have 2 columns, and the last benefit is arranged underneath, and larger devices is in 3 separate columns.
-* A “What we offer” section which is displayed stacked on smaller devices and in 2 columns on larger screens. It offers potential clients the option of potted plants or bespoke features. Underneath the option is another link to the “Contact Us” form.
+* A 3 slide carousel with photos of kayaking with text overlay and buttons to the 3 main pages and a slogan to entice users to continue reading.
+* A What we do 3 column section showing the 3 disciplines of kayaking and images of these disciplines.
+* A River trips section split into 3 columns showing River Trips, Events, and Kayaking Trips Abroad.
 
-###### Testimonial
-* The “Testimonial” page includes a carousel at the top, paired with an overlay for text colour contrast. The carousel gives the user the ability to click on the arrow to go forward or back and also allows the user to change which image is viewed using the buttons on the bottom. I changed the controls on the carousel to invert the colour from the standard white so it would be easier to see. The text includes information about the client and the type of option they opted for. Below the carousel is the testimonies. The testimonies are in relation to the images in the carousel and at the bottom of the text is where each testimony is from. I have scaled the carousel images to be large. This is because it is a showcase of the type of work the business has carried out. 
-* I have staggered the testimonies on all devices.
+###### River Trips
+* A River Trips page split between Blog Articles and a gutter with events. In the future this can be logged to blog posts, Events and Trips Abroad
+* This page has a hero image promoting Kayaking.
  
 
 ###### Form 
-* The “Form” page consists of the form and universal features only.
-* The form includes fields for the user to enter their business name and contact details using - input type="text"
-* The email input field requires the answer to be an email
-* The phone number input field must be a number to be valid.
+* The “Form” page consists of the form and universal features only. The fields are validated except for Comments.
+* The form includes fields for the user to enter their First Name and last name - input type="text"
+* The email input field requires the answer to be an email.
 * The preferred contact method is selected using a radio button. This is because there is an option for both contact methods to be selected. By using a radio button errors are avoided that may upset the user.
 * Options they would like to talk about is a checklist. This is to ensure the submitted form goes to the correct team.
-* There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments.
+* There is a - textarea - to allow the user to comment and ask questions.
 * The submit button is large and changes colour when hovered over.
 * The form is stacked for mobile use. For the larger screens, the radio buttons and check list appear inline.
 * The labels are clear as to what should go in the field and all fields are set to “required”.
@@ -278,8 +240,8 @@ I have set the form to POST with an action of "contact.php" this will not curren
 
 * Nav collapses on mobile
 * Has a log in area where users can chat online with members of the team and has the ability to share designs and discuss offers.
-* Has a “form submitted” status to give users peace of mind that the form has been sent correctly and sends the form to Plant Factory email.
-* Create an option for businesses to buy smaller plants online with a way to make online payments.
+* Has a “form submitted” status to give users peace of mind that the form has been sent correctly and sends the form to a committee email.
+* Create a membership area linked to an events provider.
 
     
 
@@ -313,9 +275,9 @@ Testing
 
 ## Testing 
 
-* Nav links work and the user is directed to the correct page of the site. 
+* Nav links work correctly and the user is directed to the correct page of the site. 
 * Logo takes the user back to the main page.
-* Contact us and Request a Quote opens links to Form.
+* Contact page and Trips page opens links to Form.
 * Hovers over links are clear and not default blue.
 * Social links works. 
     
@@ -326,13 +288,12 @@ Testing
 ![HTML Validator](README-files/css-valid.png)
 
 
-A few warnings were displayed when using the validator this is because of the variblesvariables I have used to help with the maintenencemaintenance of the site. The other error is due to the useing of external style sheets. I am happy with the outcome of this test.
+A few warnings were displayed when using the HTML validator. I had left out some alt tags. These were added. I am happy with the outcome of these tests.
 
 
 ### Usability Testing
 
-I sent the project to a few of my peers in the slack community and to a few friends within the industry.  I had them check to ensure all links were working and the website was responsive at different screen resolutions.
-One of my friends viewed the project in simplified mode and commented that the website was still easy to navigate and displayed clearly. 
+I sent the project to a couple of friends within the industry.  I had them check to ensure all links were working and the website was responsive at different screen resolutions.
 
 
 I wanted to carry out Accessibility Testing on the website.  I used [Wave](https://wave.webaim.org/) This was to check to make sure the website the website would work well with screen readers.  I also manually checked the web site by increased the REM settings on my browser and making sure that the content was still visible.  This highlighted a BUG which was FIXED prior to deployment. 
@@ -345,17 +306,17 @@ I tested on older version of Internet Explorer, the website works from Internet 
 I used [IE NetREnderer](https://netrenderer.com/index.php) to test the older versions. 
 
 ### OS Compatibility
-Tested on iOS, Android 10, and Windows 10. - I asked a friend with an IPhone to test that it was working.  
+Tested on iOS, Android 10, and Windows 10. - I asked a friend with an IPhone to test that it was working.  I have an Android.
 Tested for responsiveness using Chrome DevTools.
 
 ### Performance Testing
-Tested on the Developer Tools Lighthouse.  This was the first time running through Lighthouse
+Tested on the Developer Tools Lighthouse. 
 
-![Lighthouse results](README-files/lighthouse-before.png)
+![Lighthouse results](README-files/speed-time.jpg)
 
 I made some changes, such as increasing contrast, adding meta data and making sure my HTML was semantic and this was the results.
 
-![Lighthouse results](README-files/lighthouse-after.png)
+I'm happy with the results but can improve them in the future by deferring css and scripts to the bottom of the page, removing unnessary code and adding caching.
 
 ### Testing User Stories
 
@@ -372,6 +333,18 @@ The user can find information about what services we offer on the main page, can
 Easy to navigate to and from the main page. Testimonials clearly seen in the nav bar.
 * ###### A user showing the site to other people within their business.   
 Max-width set so if the site is being shown in a meeting or on a larger screen the content still looks presentable. 
+
+* ###### A user looking for to join a kayaking club in Ireland.
+The user can find out about the Club and the type of kayaking they offer as well as links to a River Trips and events page.
+* ###### A user looking for an established club with experienced members/peers so that they can advance in the sport.
+The user can find out about the club by promotional text information on the sliders and home page.
+* A user is looking for a social club that is friendly and welcoming.
+ A user can see photos of club members enjoying themselves on trips on the home page and Trips pages as well as stories of trips.
+* A user is looking for a roof-rack club as they already have their own gear/boat and don't want that factored into fees.
+* ###### A user looking for a club with a lot of river trips/events and kayaking holidays abroad.
+    A user can read about river trips and events on the bottom section of the homepage and clicking on links there and also via the navigation menu.
+* ###### A user is looking for easy ways to connect with other members to organise peer trips and meet ups.
+    The user can contact us via the contact us page. There is a link to this in the navigation and footer.
 
 
 *** 
@@ -449,7 +422,7 @@ Making a Local Clone
          }
 
 * BUG- When the rem size is increased on a users screen the text on the hero image is lost and the form is cut off from the bottom.  FIX - Changed the code so that the container-pattern-form was set to min-content.  I changed the position of the jumbotron.  
-* BUG The links to social media were not working. FIX the URL to the website had a typo. 
+* BUG The links to social media were not working. Noticed the links to the fav icons were missing some " and breaking the links. 
 
 
 ***
@@ -460,11 +433,7 @@ Making a Local Clone
 
 * Brian Macharia- Mentor support, guidance, tips, and key things to look out for throughout the project. Helping me to check for errors and looking at my code. 
 * Matt Rudge - Template for gitpod.io 
-* Rob Beaney - for testing and reporting any bugs or issues, helping me to trouble shoot an issue with positioning. 
-* Anthony Lomax - for testing and reporting any bugs or issues and giving me feedback on usability.
-* Harry Smith - for pointing out issue with carousel text taking a moment to change to uppercase.
-* Megan Turner - for proof reading my README.md.
-* Full Stack Developers WhatApp group (memebers of the codeinstitute slack community) - for taking the time to test the website and point out some padding issues on different resolutions, pointing out the testimonial landscape bug, also for pointing out the social links were not working. 
+
 
 * [Bootstrap](https://mdbootstrap.com/)  - Carousel used and customised for use in the project. 
 * [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -473,8 +442,6 @@ Making a Local Clone
 * [Google fonts](https://fonts.google.com/) - CDN for the fonts were used in the project.
 * [Balsamiq wireframe](https://balsamiq.com/) - To build wireframes in the design phase. 
 * [Font Awesome](https://fontawesome.com/) - for social media icons) - CDN for icons used in the project.
-* [Unsplash](https://unsplash.com/) Images taken from unsplash - see [Imagery](#imagery) for links.
-* [Freepik](https://www.freepik.com/)- pattern background
 * [HTML Validator](https://validator.w3.org/) - Testing validity of HTML.
 * [CSS Validator](https://validator.w3.org/) -Testing validity of CSS.
 * [IE NetREnderer](https://netrenderer.com/index.php)
@@ -520,34 +487,9 @@ Carousel taken directly from bootstrap - altered to fit needs
         </div>
 
 
-
-* Code customised for use of the website from [HTML-online](https://html-online.com/articles/smart-404-error-page-redirect/)
-
-        <!doctype html>
-        <html lang="en">
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="x-ua-compatible" content="ie=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Redirecting</title>
-        </head>
-        <body onload="redirect()">
-            <h1 style="text-align: center; padding-top: 50px; display: block;">Redirecting...</h1>
-            <script>
-            function redirect() {
-                setTimeout(function(){ 
-                        window.location.replace("/");
-                    }
-                    , 100);	
-                }
-            </script>
-        </body>
-        </html>
-***
-
 ### Content:
 
-Code & Content (not already attributed): Rebecca Kelsall
+Code & Content (not already attributed): Philip Wall
 
 ### Inspiration: 
 
