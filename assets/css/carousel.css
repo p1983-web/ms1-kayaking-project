@@ -7,8 +7,16 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
-
+.logo {
+    max-width: 70%;
+    height: auto;
+}
+@media screen and (max-width: 900px) {
+ #logo {
+    width: 210px;
+    height: auto;
+    }
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -85,10 +93,18 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+.logo {
+    max-width: 70%;
+    height: auto;
+}
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 1rem;
   }
+  .logo {
+    max-width: 70%;
+    height: auto;
+}
 }

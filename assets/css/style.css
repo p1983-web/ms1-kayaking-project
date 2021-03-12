@@ -91,7 +91,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 82px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -325,7 +325,10 @@ hr {
     transform: scale(1.05);
     overflow: hidden;
 }
-
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
 /*--------Trips section-------------------*/
 
 article {margin-bottom:2em;padding-bottom:2em;border-bottom:1px solid #ccc;}
@@ -606,13 +609,12 @@ footer .mid-button:hover {
         padding-right: 10px;
         padding-left: 10px;
         font-size: 1.16rem;
-        text-align: right;
+        
     }
     .nav-bar-container {
         padding-top: 17px;
         padding-bottom: 15px;
     }
-
     .hero-image {
         background: url("../images/kayaking-adventure.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
         background-blend-mode: overlay;
@@ -706,7 +708,7 @@ footer .mid-button:hover {
         padding-right: 13px;
         padding-left: 13px;
         font-size: 1.75rem;
-        text-align: right;
+        
     }
 
     .logo {
@@ -762,5 +764,11 @@ footer .mid-button:hover {
 @media (min-width: 2500px) {
     .container-trips-form {
         min-height: 100vh;
+    }
+}
+@media screen and (max-width: 900px) {
+ #logo {
+    width: 210px;
+    height: auto;
     }
 }
