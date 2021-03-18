@@ -203,7 +203,7 @@ header {
 
 .body-content {
     margin: 10px 0px 0px 0px;
-    padding: 20px 5px 10px 5px;
+    padding: 0px 5px 10px 5px;
     letter-spacing: 0.018rem;
     text-align: center;
     font-size: 1.5rem;
@@ -232,7 +232,7 @@ header {
 .container-disciplines {
     height: min-content;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 0;
     padding-bottom: 0px;
 }
 .disciplines-text h4 {
