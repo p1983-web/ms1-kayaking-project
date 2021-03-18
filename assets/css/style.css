@@ -454,9 +454,7 @@ div .jumbotron {
         }
       }
 /* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -842,7 +840,7 @@ footer .mid-button:hover {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -860,7 +858,7 @@ footer .mid-button:hover {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 40rem;
 }
 
 
