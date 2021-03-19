@@ -152,8 +152,12 @@ Should the hero or carousel images fail there is a background colour set so that
 
 
 
-## Skeleton 
+### Skeleton 
+[Home wireframe](wireframes/HOME.png)
 
+[Trips wireframe](wireframes/TRIPS.png)
+
+[Contact wireframe](wireframes/CONTACT.png)
 
 ### Layout 
 
@@ -162,11 +166,6 @@ Should the hero or carousel images fail there is a background colour set so that
 * I have also used a max-width on some pages, this is to ensure the content still looks good.
 
 
-#### Homepage Wire Frame 
-
-![Homepage Wireframe](README-files/homepage.png)
-
- 
 
 ***
 
