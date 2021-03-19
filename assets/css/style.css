@@ -17,6 +17,7 @@ body {
     padding-top: 0rem;
     padding-bottom: 0rem;
     color: #5a5a5a;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4 {
@@ -203,7 +204,6 @@ header {
 
 .body-content {
     margin: 10px 0px 0px 0px;
-    padding: 0px 5px 10px 5px;
     letter-spacing: 0.018rem;
     text-align: center;
     font-size: 1.5rem;
@@ -452,6 +452,13 @@ div .jumbotron {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+       .container-marketing {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
       }
 /* Carousel base class */
 
@@ -550,6 +557,7 @@ div .jumbotron {
 .container-bg {
     background: lightgray;
     margin: 5rem 0 0;
+    min-height: 100vh;
 }
 /* ----------------------------------------Footer */
 
@@ -609,7 +617,10 @@ footer .mid-button:hover {
   }
   .container-bg {
     background: lightgray;
-    margin: 6rem 0 0;
+    margin: 2rem 0 0;
+    min-height: 80vh;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
 }
   .row-featurette {
     --bs-gutter-x: 20rem;
@@ -635,6 +646,7 @@ footer .mid-button:hover {
     margin: 7rem 0 0;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    min-height: 100vh;
 }
 }
 /* ----------------------------Media Queries*/

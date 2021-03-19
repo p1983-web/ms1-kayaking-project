@@ -162,7 +162,7 @@ Should the hero or carousel images fail there is a background colour set so that
 ### Layout 
 
 * I have used responsive design when creating the website. as When the page is expanded from a mobile, some of the content goes from being stacked to being in adjacent coloumnscolumns. This allows the user to see more of the website on a larger screen. I have also set a Max-Width for the site so on very large screens the content stays neat and is well formatted.
-* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev tools in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
+* I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev togitgitols in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
 * I have also used a max-width on some pages, this is to ensure the content still looks good.
 
 ### Mockup
