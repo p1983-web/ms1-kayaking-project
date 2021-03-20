@@ -170,9 +170,6 @@ Should the hero or carousel images fail there is a background colour set so that
 * I used Bootstraps for the use of the grid system and for the carousel. I used chrome dev togitgitols in the development of the website and altered the column classes in devtools first before implamentingimplementing into my code.
 * I have also used a max-width on some pages, this is to ensure the content still looks good.
 
-### Mockup
-
-![Mock ups](README-files/mock-ups.png)
 
 ***
 
