@@ -27,6 +27,11 @@ There is a scope to add a blog with upcoming events, river trips, kayaking holid
 * [Acknowledgements](#credit)
 
 *** 
+## Demo
+A live demo can be found [here](https://8000-aqua-woodpecker-3507918q.ws-eu03.gitpod.io/).
+
+![Desktop Demo](assets/images/responsive.jpg "Desktop Demo")
+
 
 ## User Experience (UX)
 
