@@ -1,212 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Rock Hoppers Kayaking Club Ireland. Kayaking Club Ireland.">
-    <meta name="keywords" content="kayaking, kayaking club Ireland, learn to kayak">
-    <meta name="author" content="Philip Wall">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Rock Hoppers Home Page</title>
-</head>
-<!--____________Navigation____________-->
-<body>
-     <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a href="index.html" class="navbar-brand"><img src="/assets/images/rockhoppers-logo.png" width="350" height="82" alt="Rock Hoppers Logo" id="logo" class="d-inline-block align-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-        <li class="nav-item">
-                    <a href="index.html" class="nav-link uppercase">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="trips.html" class="nav-link uppercase">Trips</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link uppercase">Contact</a>
-                </li>
-        </ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="Rock Hoppers Kayaking Club Ireland. Kayaking Club Ireland.">
+      <meta name="keywords" content="kayaking, kayaking club Ireland, learn to kayak">
+      <meta name="author" content="Philip Wall">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <title>Rock Hoppers Home Page</title>
+   </head>
+   <!--____________Navigation____________-->
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+               <a href="index.html" class="navbar-brand"><img src="/assets/images/rockhoppers-logo.png" width="350" height="82" alt="Rock Hoppers Logo" id="logo" class="d-inline-block align-top"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                     <li class="nav-item">
+                        <a href="index.html" class="nav-link uppercase">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="trips.html" class="nav-link uppercase">Trips</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="contact.html" class="nav-link uppercase">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--____________Carousel____________-->
+      <!--___Code in carousel taken from bootstrap customised to fit needs________-->
+      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner" role="listbox" data-interval="7000">
+            <div class="carousel-item active">
+               <div class="overlay-image" style="background-image: url(assets/images/rock-hopper-hero.jpg);"></div>
+               <div class="container">
+                  <div class="carousel-caption text-start">
+                     <h1>Rock Hoppers Kayak Club</h1>
+                     <p>Join Ireland's leading Roof Rack Kayak Club</p>
+                     <p>Want to join us?</p>
+                     <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Sign up today!</a></p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item" data-interval="7000">
+               <div class="overlay-image" style="background-image: url(assets/images/shannon-kayaking.jpg);"></div>
+               <div class="container">
+                  <div class="carousel-caption text-start">
+                     <h1>Join us on the river</h1>
+                     <p>Looking to get more on weekly river trips? Do you want to kayak abroad?</p>
+                     <p>We run regular trips, events and excursions in Ireland and abroad.</p>
+                     <p><a class="btn btn-lg btn-primary" href="trips.html" role="button">Learn more</a></p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item" data-interval="7000">
+               <div class="overlay-image" style="background-image: url(assets/images/mayo-kayak.JPG);"></div>
+               <div class="container">
+                  <div class="carousel-caption text-start">
+                     <h1>Get fit and see nature in a new and exciting way!</h1>
+                     <p>Our club gives you the opportunity to meet new people, get out into nature, and get fit doing so!</p>
+                     <p><a class="btn btn-lg btn-primary" href="trips.html" role="button">View Trips</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </a>
       </div>
-    </div>
-    </nav>
-    </header>
-   <!--____________Carousel____________-->
-    <!--___Code in carousel taken from bootstrap customised to fit needs________-->
- <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" data-interval="7000">
-      <div class="carousel-item active">
-          <div class="overlay-image" style="background-image: url(assets/images/rock-hopper-hero.jpg);"></div>
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Rock Hoppers Kayak Club</h1>
-            <p>Join Ireland's leading Roof Rack Kayak Club</p>
-            <p>Want to join us?</p>
-            <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Sign up today!</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" data-interval="7000">
-        <div class="overlay-image" style="background-image: url(assets/images/shannon-kayaking.jpg);"></div>
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Join us on the river</h1>
-            <p>Looking to get more on weekly river trips? Do you want to kayak abroad?</p>
-            <p>We run regular trips, events and excursions in Ireland and abroad.</p>
-            <p><a class="btn btn-lg btn-primary" href="trips.html" role="button">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" data-interval="7000">
-        <div class="overlay-image" style="background-image: url(assets/images/mayo-kayak.JPG);"></div>
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Get fit and see nature in a new and exciting way!</h1>
-            <p>Our club gives you the opportunity to meet new people, get out into nature, and get fit doing so!</p>
-            <p><a class="btn btn-lg btn-primary" href="trips.html" role="button">View Trips</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
-
-  <section>
-        <div class="container-disciplines bg-color-disciplines container-fluid">
+      <section>
+         <div class="container-disciplines bg-color-disciplines container-fluid">
             <div class="row body-content">
-                <div class="col-12 disciplines-text">
-                    <h3 class="text-uppercase content-heading">What we do</h3>
-                    <hr class="head-line">
-                    </div>
-                </div>
+               <div class="col-12 disciplines-text">
+                  <h3 class="text-uppercase content-heading">What we do</h3>
+                  <hr class="head-line">
+               </div>
             </div>
-            <div class="container-fluid">
-                <!--_______What We Do _______-->
-                <div class="row body-content disciplines-text">
-                    <div class="col-md-6 col-lg-4 ">
-                        <img src="assets/images/white-water.jpg" alt="Adventure Kayaking Image">
-                        <h4 class="text-uppercase sub-heading">Adventure Kayaking</h4>
-                        <p class="text-center">
-                            Whether you want to go out for a leisurely paddle or run extreme rivers the Adventure Kayaking section has it all. This is where the true adventurers from the club come from. Every second weekend the river runners adventure away to parts far and wide to run rivers of all grades.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <img src="assets/images/open-canoe.jpg" alt="Open Canoe Image">
-                        <h4 class="text-uppercase sub-heading">Open Canoeing</h4>
-                        <p class="text-center disciplines-text">
-                            Open Canoeing (commonly know as Canadian Canoeing) at Rockhoppers has been going strong for years. The clubs’ focus has been to encourage people from all walks of life to get out on the water and enjoy the experience. We also run ‘Wild Camping’ <a href="trips.html" class="link-discipline">canoe trips</a> during the year
-                        </p>
-                    </div>
-                    <div class="col-md-12 col-lg-4">
-                        <img src="assets/images/canoe-Freestyle.jpg" alt="Freestyle Playboating Image">
-                        <h4 class="text-uppercase sub-heading">Freestyle Kayaking</h4>
-                        <p class="text-center disciplines-text">
-                           Playboating is a discipline of whitewater kayaking canoeing where the paddler performs various technical moves in one place (a playspot), as opposed to downriver whitewater kayaking where the objective is running the river. Meet us at the Sluice, Dublin most Sundays.
-                        </p>
-                    </div>
-                </div>
+         </div>
+         <div class="container-fluid">
+            <!--_______What We Do _______-->
+            <div class="row body-content disciplines-text">
+               <div class="col-md-6 col-lg-4 ">
+                  <img src="assets/images/white-water.jpg" alt="Adventure Kayaking Image">
+                  <h4 class="text-uppercase sub-heading">Adventure Kayaking</h4>
+                  <p class="text-center">
+                     Whether you want to go out for a leisurely paddle or run extreme rivers the Adventure Kayaking section has it all. This is where the true adventurers from the club come from. Every second weekend the river runners adventure away to parts far and wide to run rivers of all grades.
+                  </p>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <img src="assets/images/open-canoe.jpg" alt="Open Canoe Image">
+                  <h4 class="text-uppercase sub-heading">Open Canoeing</h4>
+                  <p class="text-center disciplines-text">
+                     Open Canoeing (commonly know as Canadian Canoeing) at Rockhoppers has been going strong for years. The clubs’ focus has been to encourage people from all walks of life to get out on the water and enjoy the experience. We also run ‘Wild Camping’ <a href="trips.html" class="link-discipline">canoe trips</a> during the year
+                  </p>
+               </div>
+               <div class="col-md-12 col-lg-4">
+                  <img src="assets/images/canoe-Freestyle.jpg" alt="Freestyle Playboating Image">
+                  <h4 class="text-uppercase sub-heading">Freestyle Kayaking</h4>
+                  <p class="text-center disciplines-text">
+                     Playboating is a discipline of whitewater kayaking canoeing where the paddler performs various technical moves in one place (a playspot), as opposed to downriver whitewater kayaking where the objective is running the river. Meet us at the Sluice, Dublin most Sundays.
+                  </p>
+               </div>
             </div>
-            <div class="container-fluid">
+         </div>
+         <div class="container-fluid">
             <!--_______River Trips Info _______-->
-                <div class="bg-color-white row body-content container-trips">
-                    <div class="contrast-back">
-                    <div class="col-12 trips-text">
-                        <h3 class="text-uppercase content-heading trips-text">RIVER TRIPS & EVENTS</h3>
-                        <hr class="head-line">
-                    </div>
-                </div>
-
-                 <div class="row body-content trips-text container-trips">
-                    <div class="col-md-6 col-lg-4 ">
-                        <img src="assets/images/trip.jpg" alt="River Trips">
-                        <h4 class="text-uppercase sub-heading-white">River Trips</h4>
-                        <p class="text-center">The club usually holds regular weekly river trips on a sunday. The Boyne and Liffey are main stays, the Annamoe, when it’s been raining also the Dargle, Analecky Brooke and Upper Liffey for the thrill seekers.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <img src="assets/images/events-kayak.jpg" alt="Kayaking Events">
-                        <h4 class="text-uppercase sub-heading-white">Events</h4>
-                        <p class="text-center trips-text">
-                            Our next event will be posted soon. A list of all our weekly events can be found on the Events section of our Trips page and posted on our Facebook page.
-                        </p>
-                    </div>
-                    <div class="col-md-12 col-lg-4">
-                        <img src="assets/images/trips-away.jpg" alt="Kayaking Trips Abroad">
-                        <h4 class="text-uppercase sub-heading-white">Kayaking Trips Abroad</h4>
-                        <p class="text-center trips-text">
-                           Each year, the club organises trips slighty further afield. So far the club has visited Uganda, Scotland, Wales and more recently the Grand Canyon. You can find accounts of these trips in our <a href="trips.html" class="link-discipline">Trips section.</a>
-                        </p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-             </section>
-    <!---- Footer_Section ---->
-    <footer class="footer-style container-fluid">
-        <div id="footer-details" class="row">
+            <div class="bg-color-white row body-content container-trips">
+               <div class="contrast-back">
+                  <div class="col-12 trips-text">
+                     <h3 class="text-uppercase content-heading trips-text">RIVER TRIPS & EVENTS</h3>
+                     <hr class="head-line">
+                  </div>
+               </div>
+               <div class="row body-content trips-text container-trips">
+                  <div class="col-md-6 col-lg-4 ">
+                     <img src="assets/images/trip.jpg" alt="River Trips">
+                     <h4 class="text-uppercase sub-heading-white">River Trips</h4>
+                     <p class="text-center">The club usually holds regular weekly river trips on a sunday. The Boyne and Liffey are main stays, the Annamoe, when it’s been raining also the Dargle, Analecky Brooke and Upper Liffey for the thrill seekers.
+                     </p>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <img src="assets/images/events-kayak.jpg" alt="Kayaking Events">
+                     <h4 class="text-uppercase sub-heading-white">Events</h4>
+                     <p class="text-center trips-text">
+                        Our next event will be posted soon. A list of all our weekly events can be found on the Events section of our Trips page and posted on our Facebook page.
+                     </p>
+                  </div>
+                  <div class="col-md-12 col-lg-4">
+                     <img src="assets/images/trips-away.jpg" alt="Kayaking Trips Abroad">
+                     <h4 class="text-uppercase sub-heading-white">Kayaking Trips Abroad</h4>
+                     <p class="text-center trips-text">
+                        Each year, the club organises trips slighty further afield. So far the club has visited Uganda, Scotland, Wales and more recently the Grand Canyon. You can find accounts of these trips in our <a href="trips.html" class="link-discipline">Trips section.</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--________Footer_Section_________-->
+      <footer class="footer-style container-fluid">
+         <div id="footer-details" class="row">
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Trips</h5>
-                <div class="button-padding">
-                        <a href="trips.html" aria-label="opens trips page" class="button-style mid-button">LEARN MORE</a>
-                    </div>
+               <h5 class="uppercase general-sub">Trips</h5>
+               <div class="button-padding">
+                  <a href="trips.html" aria-label="opens trips page" class="button-style mid-button">LEARN MORE</a>
+               </div>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Contact</h5>
-                <p class="inline-block">
-                    Contact us for membership enquiries.
-                    <a href="trips.html" target="_blank">
-                    </a>
-                </p>
-                <div class="button-padding">
-                        <a href="contact.html" aria-label="opens contact form" class="button-style mid-button">Contact Form</a>
-                    </div>
+               <h5 class="uppercase general-sub">Contact</h5>
+               <p class="inline-block">
+                  Contact us for membership enquiries.
+                  <a href="trips.html" target="_blank">
+                  </a>
+               </p>
+               <div class="button-padding">
+                  <a href="contact.html" aria-label="opens contact form" class="button-style mid-button">Contact Form</a>
+               </div>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/groups/rockhopperskayakclub">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/rockhopperskayakclub">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
+               <h5 class="uppercase general-sub">Social</h5>
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.facebook.com/groups/rockhopperskayakclub">
+                     <i class="fa fa-facebook" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.instagram.com/rockhopperskayakclub">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+               </ul>
             </div>
-        </div> 
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-</body>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+   </body>
 </html>
